@@ -1,3 +1,4 @@
+
 a{
     color: rgb(36, 36, 36);
     text-decoration: none;
@@ -58,7 +59,7 @@ a:hover{
 }
 header{
     display: flex;
-    padding: 20px;
+    padding: 30px;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -71,6 +72,23 @@ header{
 #about{
     padding: 0 20px 0 0;
 }
+#apps{
+    padding: 0 20px 0 20px;
+    display: block;
+    
+}
+#signin{
+    background-color: #3957ddbe; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 570;
+    border-radius: 5px;
+}
 .head2{
     display: flex;
     flex-direction: row;
@@ -78,28 +96,24 @@ header{
 #images{
     padding: 0 0 0 20px;
  }   
-.footer1{
-    display: flex;
-    justify-content: flex-start;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     position: fixed;
     bottom: 0;
-    padding: 25px;
-    
+    width: 100%;
+    background-color: #f3f3f3;
+    overflow: hidden;
 }
-#advertising{
-    padding: 0 25px 0 0;
+li{
+    float: left;
 }
-#hsw{
-    padding: 0 0 0 25px;
-}
-.footer2{
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 25px;
-    
-}
-#terms{
-    padding: 0 25px 0 25px;
-}
+li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 19px;
+    color: rgba(78, 78, 78, 0.993);
+  }
