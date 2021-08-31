@@ -78,16 +78,16 @@ header{
     
 }
 #signin{
-    background-color: #3957ddbe; /* Green */
+    background-color: rgb(68,135,249);
     border: none;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    font-weight: 570;
-    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 550;
+    border-radius: 2px;
 }
 .head2{
     display: flex;
